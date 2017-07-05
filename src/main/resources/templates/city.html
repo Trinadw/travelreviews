@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="travelstyles.css"></link>
+<title>City Review</title>
+</head>
+<body>
+<h1>Travel Reviews</h1>
+<!-- loads the review showing picture and review info from the populator -->
+<img th:src="${city.imageUrl}"/>
+<p th:text="'ID: ' +${city.id}"></p> 
+<p th:text="'Location: ' + ${city.cityName}"></p>
+<p th:text="'Review: ' + ${city.review}"></p>
+<p th:text="'Date Visited: ' + ${city.visitDate}"></p>
+<p th:text="'City Description: ' + ${city.description}"></p>
+
+</body>
+</html>

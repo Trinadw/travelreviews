@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="travelstyles.css"></link>
+<head>
+
+<title>Countries Traveled</title>
+</head>
+<header>
+<div id="nameheading">
+<h1>
+<img class="scenicpic" alt="scenic" src="/images/scenicview.jpg"/>Trina's Travels<img class="scenicpic2" alt="scenic" src="/images/scenicview.jpg"/>
+</h1>
+
+</div>
+</header>
+<body>
+
+
+<div class="countryList">
+<ul th:each="currentCountries:${countryAsCollection}">
+<li><button class ="button1">
+<a th:href="@{/country(id=${currentCountries.id})}"
+th:text="${currentCountries.countryName}"></a>
+</button></li>
+</ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="travelstyles.css"></link>
+<title>CountryCity</title>
+</head>
+<body>
+
+
+<div class="countryCity">
+<ul th:each="currentCountry:${country.cities}">
+<li><button class ="button1">
+<a th:href="@{/city(id=${currentCountry.id})}"
+th:text="${currentCountry.cityName}"></a>
+</button></li>
+</ul>
+</div>
+
+</body>
+</html>
