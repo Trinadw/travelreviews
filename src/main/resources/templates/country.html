@@ -7,14 +7,18 @@
 <body>
 
 
-<div class="countryCity">
-<ul th:each="currentCountry:${country.cities}">
-<li><button class ="button1">
-<a th:href="@{/city(id=${currentCountry.id})}"
-th:text="${currentCountry.cityName}"></a>
-</button></li>
-</ul>
-</div>
+	<div class="countryCity">
+		<ul id="citylist">
+			<h3>These are the cities I have visited in:</h3>
+			<h2 th:text="${country.countryName}"></h2>
+			<li th:each="currentCountry:${country.cities}"><img
+				class="citypix" th:src="${currentCountry.imageUrl}" /><br>
+				<button class="button1">
+					<a th:href="@{/city(id=${currentCountry.id})}"
+						th:text="${currentCountry.cityName}"></a>
+				</button> </br></li>
+		</ul>
+	</div>
 
 </body>
 </html>

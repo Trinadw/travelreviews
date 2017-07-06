@@ -1,0 +1,58 @@
+body {
+	background: #aeaeae;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width:180px;
+    height: 120px;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+img.scenepic {
+	float: right;
+	margin: 0px 70 px;
+	border-style: solid;
+}
+
+header {
+	background-repeat: no-repeat;
+	font-family: cursive;
+	font-size: 35px;
+	text-shadow: 3px 2px gray;
+	/*background-color: #d6d3ca;*/
+	background-image: url("/images/imageedit_1_9741139575.jpg");
+	background-size: 100%
+}
+
+h1 {
+	text-align: center;
+}
+
+img.scenicpic {
+	max-width: 100px;
+	height: 97px;
+	opacity: 0.5;
+	float: left;
+}
+
+img.scenicpic2 {
+	max-width: 100px;
+	height: 97px;
+	opacity: 0.5;
+	float: right;
+}
