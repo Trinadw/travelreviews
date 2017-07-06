@@ -1,6 +1,26 @@
 body {
 	background: #aeaeae;
+	
 }
+.button1 {
+    background-color: #e7e7e7;  /* Gray */
+    border: none;
+    border-radius: 50%;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+   text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    flex-direction: center;
+	justify-content: space-around;
+	
+}
+
+div.countryList ul{
+	list-style-type:none;
+}
+
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
