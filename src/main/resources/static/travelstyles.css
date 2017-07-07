@@ -43,6 +43,9 @@ div.desc {
     text-align: center;
 }
 
+div.nameHeading{
+	position: fixed;
+}
 img.scenepic {
 	float: right;
 	margin: 0px 70 px;
@@ -57,6 +60,7 @@ header {
 	/*background-color: #d6d3ca;*/
 	background-image: url("/images/imageedit_1_9741139575.jpg");
 	background-size: 100%
+	
 }
 
 h1 {
