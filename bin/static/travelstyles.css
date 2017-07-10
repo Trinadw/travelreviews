@@ -1,6 +1,10 @@
 body {
-	background: #aeaeae;
+	background-image: url(/images/Webp.net-resizeimageglobe25.jpg);
+	background-size:cover;
 	
+}
+ul{
+	list-style:none;
 }
 .button1 {
     background-color: #e7e7e7;  /* Gray */
@@ -14,18 +18,17 @@ body {
     font-size: 16px;
     flex-direction: center;
 	justify-content: space-around;
-	
+	list-style:none;
+	/*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
 }
 
-div.countryList ul{
-	list-style-type:none;
-}
 
 div.gallery {
-    margin: 5px;
+	
+    margin: 10px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 160px;
 }
 
 div.gallery:hover {
@@ -33,23 +36,24 @@ div.gallery:hover {
 }
 
 div.gallery img {
-    width:180px;
+    width:160px;
     height: 120px;
-    height: auto;
+    /* height: auto; */
 }
 
 div.desc {
     padding: 15px;
     text-align: center;
 }
-
-div.nameHeading{
-	position: fixed;
+div.story2{
+	margin:10px;
 }
+
 img.scenepic {
-	float: right;
-	margin: 0px 70 px;
+	float: left;
+	margin: 70px 10 px;
 	border-style: solid;
+	border-color: gray;
 }
 
 header {
@@ -58,15 +62,20 @@ header {
 	font-size: 35px;
 	text-shadow: 3px 2px gray;
 	/*background-color: #d6d3ca;*/
-	background-image: url("/images/imageedit_1_9741139575.jpg");
+	/* background-image: url("/images/imageedit_1_9741139575.jpg"); */
 	background-size: 100%
-	
+	border-style:solid;
 }
 
 h1 {
 	text-align: center;
 }
 
+img.citypix{
+	width:360px;
+    height: 320px;
+	
+}
 img.scenicpic {
 	max-width: 100px;
 	height: 97px;
@@ -80,3 +89,8 @@ img.scenicpic2 {
 	opacity: 0.5;
 	float: right;
 }
+
+footer {
+	text-align: center;
+}
+

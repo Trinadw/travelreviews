@@ -14,5 +14,12 @@
 <p th:text="'Date Visited: ' + ${city.visitDate}"></p>
 <p th:text="'City Description: ' + ${city.description}"></p>
 
+<footer>
+			<a class="backtomain"
+				th:href="@{/countries(countryName=${countryAsCollection})}">Back to Trina's
+				Travel Reviews Homepage</a>
+
+			<p>Trina's Travel Reviews</p>
+		</footer>
 </body>
 </html>
