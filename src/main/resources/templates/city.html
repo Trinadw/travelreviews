@@ -6,6 +6,7 @@
 </head>
 <body>
 <h1>Travel Reviews</h1>
+<div class="cityInfo">
 <!-- loads the review showing picture and review info from the populator -->
 <img th:src="${city.imageUrl}"/>
 <p th:text="'ID: ' +${city.id}"></p> 
@@ -13,7 +14,7 @@
 <p th:text="'Review: ' + ${city.review}"></p>
 <p th:text="'Date Visited: ' + ${city.visitDate}"></p>
 <p th:text="'City Description: ' + ${city.description}"></p>
-
+</div>
 <footer>
 			<a class="backtomain"
 				th:href="@{/countries(countryName=${countryAsCollection})}">Back to Trina's
