@@ -35,12 +35,19 @@ ul li a{
 div.cityInfo img{
 	border: 3px solid white; 
 }
-
+.container{
+	display:flex;
+	flex-direction: row-reverse;
+	margin: 10px;
+	overflow: auto;
+}
 div.gallery {
 	margin: 10px;
     border: 1px solid #ccc;
-    float: left;
+   /* float:right;*/
     width: 160px;
+    /* display:flex;
+	flex-direction: column-reverse; */
 }
 
 div.gallery:hover {
@@ -57,9 +64,7 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
-div.story2{
-	margin:10px;
-}
+
 
 img.scenepic {
 	float: left;
@@ -84,6 +89,11 @@ header {
 
 h1 {
 	text-align: center;
+	color:#52545e;
+}
+
+h2 {
+	color:#52545e;
 }
 
 img.citypix{
